@@ -1,0 +1,84 @@
+15/Aug/2019
+XYZ ob = new XYZ() ;
+
+@Autowired
+XYZ ob;
+
+
+Setter Injection;
+Constructor Injection;
+
+IOC/DI: All dependent objects are instantiated and injected automatically to other object instead of creating and looking for dependent objects for themselves.
+XYZ ob = new XYZ;
+
+Promotes Loose Coupling. - Single Responsibility
+
+Autowiring- @Autowired 
+
+@Autowired
+XYZ ob;
+
+Component Scan
+com.org.app
+
+com.org.app.controller
+com.org.app.dao
+com.org.app.services
+
+
+Web App:
+
+Web Layer
+Data Layer
+Business layer
+
+Model 1 Architecture:
+
+Model 2 Architecture:
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+19/Aug/2019
+
+Tools Required:
+JDK1.8
+1. STS (Spring Tool Suite)
+2. MySQL.
+3. mysqlconnector.jar
+4. sqldeveloper
+5. Github: Git Bash Client
+6. Apache Maven
+
+XYZ ob = new XYZ();
+XYZ ob = new XYZ(23);
+ob.Xmethod(4);
+
+
+XYZ ob ;
+ob = factory.getBean()
+
+Setter Injection/Constructor Injection
+
+Constructor Injection ----- Mandatory Dependencies
+Setter Injection ------ Optional Dependencies
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+21/Aug/2019
+
+Spring Beans:
+
+Spring Beans Scopes:
+
+1. Singleton
+2. Prototype
+3. Request
+4. Session
+5. Global Session
+
+Different ways of using Applic Context
+
+Autowiring and types:
+
+
+
+
+
